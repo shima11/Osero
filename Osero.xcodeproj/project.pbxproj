@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D41C68B21C7B45430017DBE5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D41C68B11C7B45430017DBE5 /* AppDelegate.swift */; };
+		D41C68B41C7B45430017DBE5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D41C68B31C7B45430017DBE5 /* ViewController.swift */; };
+		D41C68B71C7B45430017DBE5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D41C68B51C7B45430017DBE5 /* Main.storyboard */; };
+		D41C68B91C7B45430017DBE5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D41C68B81C7B45430017DBE5 /* Assets.xcassets */; };
+		D41C68BC1C7B45430017DBE5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D41C68BA1C7B45430017DBE5 /* LaunchScreen.storyboard */; };
+		D41C68C71C7B45450017DBE5 /* OseroTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D41C68C61C7B45450017DBE5 /* OseroTests.swift */; };
+		D41C68D21C7B45450017DBE5 /* OseroUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D41C68D11C7B45450017DBE5 /* OseroUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D41C68C31C7B45450017DBE5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41C68A61C7B45430017DBE5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D41C68AD1C7B45430017DBE5;
+			remoteInfo = Osero;
+		};
+		D41C68CE1C7B45450017DBE5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41C68A61C7B45430017DBE5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D41C68AD1C7B45430017DBE5;
+			remoteInfo = Osero;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D41C68AE1C7B45430017DBE5 /* Osero.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Osero.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D41C68B11C7B45430017DBE5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D41C68B31C7B45430017DBE5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D41C68B61C7B45430017DBE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D41C68B81C7B45430017DBE5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D41C68BB1C7B45430017DBE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D41C68BD1C7B45430017DBE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D41C68C21C7B45450017DBE5 /* OseroTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OseroTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D41C68C61C7B45450017DBE5 /* OseroTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OseroTests.swift; sourceTree = "<group>"; };
+		D41C68C81C7B45450017DBE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D41C68CD1C7B45450017DBE5 /* OseroUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OseroUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D41C68D11C7B45450017DBE5 /* OseroUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OseroUITests.swift; sourceTree = "<group>"; };
+		D41C68D31C7B45450017DBE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D41C68AB1C7B45430017DBE5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D41C68BF1C7B45450017DBE5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D41C68CA1C7B45450017DBE5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D41C68A51C7B45430017DBE5 = {
+			isa = PBXGroup;
+			children = (
+				D41C68B01C7B45430017DBE5 /* Osero */,
+				D41C68C51C7B45450017DBE5 /* OseroTests */,
+				D41C68D01C7B45450017DBE5 /* OseroUITests */,
+				D41C68AF1C7B45430017DBE5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D41C68AF1C7B45430017DBE5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D41C68AE1C7B45430017DBE5 /* Osero.app */,
+				D41C68C21C7B45450017DBE5 /* OseroTests.xctest */,
+				D41C68CD1C7B45450017DBE5 /* OseroUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D41C68B01C7B45430017DBE5 /* Osero */ = {
+			isa = PBXGroup;
+			children = (
+				D41C68B11C7B45430017DBE5 /* AppDelegate.swift */,
+				D41C68B31C7B45430017DBE5 /* ViewController.swift */,
+				D41C68B51C7B45430017DBE5 /* Main.storyboard */,
+				D41C68B81C7B45430017DBE5 /* Assets.xcassets */,
+				D41C68BA1C7B45430017DBE5 /* LaunchScreen.storyboard */,
+				D41C68BD1C7B45430017DBE5 /* Info.plist */,
+			);
+			path = Osero;
+			sourceTree = "<group>";
+		};
+		D41C68C51C7B45450017DBE5 /* OseroTests */ = {
+			isa = PBXGroup;
+			children = (
+				D41C68C61C7B45450017DBE5 /* OseroTests.swift */,
+				D41C68C81C7B45450017DBE5 /* Info.plist */,
+			);
+			path = OseroTests;
+			sourceTree = "<group>";
+		};
+		D41C68D01C7B45450017DBE5 /* OseroUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D41C68D11C7B45450017DBE5 /* OseroUITests.swift */,
+				D41C68D31C7B45450017DBE5 /* Info.plist */,
+			);
+			path = OseroUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D41C68AD1C7B45430017DBE5 /* Osero */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D41C68D61C7B45450017DBE5 /* Build configuration list for PBXNativeTarget "Osero" */;
+			buildPhases = (
+				D41C68AA1C7B45430017DBE5 /* Sources */,
+				D41C68AB1C7B45430017DBE5 /* Frameworks */,
+				D41C68AC1C7B45430017DBE5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Osero;
+			productName = Osero;
+			productReference = D41C68AE1C7B45430017DBE5 /* Osero.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D41C68C11C7B45450017DBE5 /* OseroTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D41C68D91C7B45450017DBE5 /* Build configuration list for PBXNativeTarget "OseroTests" */;
+			buildPhases = (
+				D41C68BE1C7B45450017DBE5 /* Sources */,
+				D41C68BF1C7B45450017DBE5 /* Frameworks */,
+				D41C68C01C7B45450017DBE5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D41C68C41C7B45450017DBE5 /* PBXTargetDependency */,
+			);
+			name = OseroTests;
+			productName = OseroTests;
+			productReference = D41C68C21C7B45450017DBE5 /* OseroTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D41C68CC1C7B45450017DBE5 /* OseroUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D41C68DC1C7B45450017DBE5 /* Build configuration list for PBXNativeTarget "OseroUITests" */;
+			buildPhases = (
+				D41C68C91C7B45450017DBE5 /* Sources */,
+				D41C68CA1C7B45450017DBE5 /* Frameworks */,
+				D41C68CB1C7B45450017DBE5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D41C68CF1C7B45450017DBE5 /* PBXTargetDependency */,
+			);
+			name = OseroUITests;
+			productName = OseroUITests;
+			productReference = D41C68CD1C7B45450017DBE5 /* OseroUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41C68A61C7B45430017DBE5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Jinsei Shima";
+				TargetAttributes = {
+					D41C68AD1C7B45430017DBE5 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					D41C68C11C7B45450017DBE5 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = D41C68AD1C7B45430017DBE5;
+					};
+					D41C68CC1C7B45450017DBE5 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = D41C68AD1C7B45430017DBE5;
+					};
+				};
+			};
+			buildConfigurationList = D41C68A91C7B45430017DBE5 /* Build configuration list for PBXProject "Osero" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D41C68A51C7B45430017DBE5;
+			productRefGroup = D41C68AF1C7B45430017DBE5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D41C68AD1C7B45430017DBE5 /* Osero */,
+				D41C68C11C7B45450017DBE5 /* OseroTests */,
+				D41C68CC1C7B45450017DBE5 /* OseroUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D41C68AC1C7B45430017DBE5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D41C68BC1C7B45430017DBE5 /* LaunchScreen.storyboard in Resources */,
+				D41C68B91C7B45430017DBE5 /* Assets.xcassets in Resources */,
+				D41C68B71C7B45430017DBE5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D41C68C01C7B45450017DBE5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D41C68CB1C7B45450017DBE5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D41C68AA1C7B45430017DBE5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D41C68B41C7B45430017DBE5 /* ViewController.swift in Sources */,
+				D41C68B21C7B45430017DBE5 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D41C68BE1C7B45450017DBE5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D41C68C71C7B45450017DBE5 /* OseroTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D41C68C91C7B45450017DBE5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D41C68D21C7B45450017DBE5 /* OseroUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D41C68C41C7B45450017DBE5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D41C68AD1C7B45430017DBE5 /* Osero */;
+			targetProxy = D41C68C31C7B45450017DBE5 /* PBXContainerItemProxy */;
+		};
+		D41C68CF1C7B45450017DBE5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D41C68AD1C7B45430017DBE5 /* Osero */;
+			targetProxy = D41C68CE1C7B45450017DBE5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D41C68B51C7B45430017DBE5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D41C68B61C7B45430017DBE5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D41C68BA1C7B45430017DBE5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D41C68BB1C7B45430017DBE5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D41C68D41C7B45450017DBE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D41C68D51C7B45450017DBE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D41C68D71C7B45450017DBE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Osero/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.kochi-ct.Osero";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D41C68D81C7B45450017DBE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Osero/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.kochi-ct.Osero";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D41C68DA1C7B45450017DBE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = OseroTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.kochi-ct.OseroTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Osero.app/Osero";
+			};
+			name = Debug;
+		};
+		D41C68DB1C7B45450017DBE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = OseroTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.kochi-ct.OseroTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Osero.app/Osero";
+			};
+			name = Release;
+		};
+		D41C68DD1C7B45450017DBE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = OseroUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.kochi-ct.OseroUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Osero;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		D41C68DE1C7B45450017DBE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = OseroUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.kochi-ct.OseroUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Osero;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D41C68A91C7B45430017DBE5 /* Build configuration list for PBXProject "Osero" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D41C68D41C7B45450017DBE5 /* Debug */,
+				D41C68D51C7B45450017DBE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D41C68D61C7B45450017DBE5 /* Build configuration list for PBXNativeTarget "Osero" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D41C68D71C7B45450017DBE5 /* Debug */,
+				D41C68D81C7B45450017DBE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D41C68D91C7B45450017DBE5 /* Build configuration list for PBXNativeTarget "OseroTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D41C68DA1C7B45450017DBE5 /* Debug */,
+				D41C68DB1C7B45450017DBE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D41C68DC1C7B45450017DBE5 /* Build configuration list for PBXNativeTarget "OseroUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D41C68DD1C7B45450017DBE5 /* Debug */,
+				D41C68DE1C7B45450017DBE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41C68A61C7B45430017DBE5 /* Project object */;
+}

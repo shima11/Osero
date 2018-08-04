@@ -14,6 +14,8 @@
 		D41C68BC1C7B45430017DBE5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D41C68BA1C7B45430017DBE5 /* LaunchScreen.storyboard */; };
 		D41C68C71C7B45450017DBE5 /* OseroTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D41C68C61C7B45450017DBE5 /* OseroTests.swift */; };
 		D41C68D21C7B45450017DBE5 /* OseroUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D41C68D11C7B45450017DBE5 /* OseroUITests.swift */; };
+		D41C68E01C7B45800017DBE5 /* OthelloView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D41C68DF1C7B45800017DBE5 /* OthelloView.swift */; };
+		D4F353691C7F2EF5008A65AC /* FlipModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4F353681C7F2EF5008A65AC /* FlipModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		D41C68CD1C7B45450017DBE5 /* OseroUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OseroUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D41C68D11C7B45450017DBE5 /* OseroUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OseroUITests.swift; sourceTree = "<group>"; };
 		D41C68D31C7B45450017DBE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D41C68DF1C7B45800017DBE5 /* OthelloView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OthelloView.swift; sourceTree = "<group>"; };
+		D4F353681C7F2EF5008A65AC /* FlipModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlipModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,8 @@
 			children = (
 				D41C68B11C7B45430017DBE5 /* AppDelegate.swift */,
 				D41C68B31C7B45430017DBE5 /* ViewController.swift */,
+				D41C68DF1C7B45800017DBE5 /* OthelloView.swift */,
+				D4F353681C7F2EF5008A65AC /* FlipModel.swift */,
 				D41C68B51C7B45430017DBE5 /* Main.storyboard */,
 				D41C68B81C7B45430017DBE5 /* Assets.xcassets */,
 				D41C68BA1C7B45430017DBE5 /* LaunchScreen.storyboard */,
@@ -258,6 +264,8 @@
 			files = (
 				D41C68B41C7B45430017DBE5 /* ViewController.swift in Sources */,
 				D41C68B21C7B45430017DBE5 /* AppDelegate.swift in Sources */,
+				D4F353691C7F2EF5008A65AC /* FlipModel.swift in Sources */,
+				D41C68E01C7B45800017DBE5 /* OthelloView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -484,6 +492,7 @@
 				D41C68D81C7B45450017DBE5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D41C68D91C7B45450017DBE5 /* Build configuration list for PBXNativeTarget "OseroTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +501,7 @@
 				D41C68DB1C7B45450017DBE5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D41C68DC1C7B45450017DBE5 /* Build configuration list for PBXNativeTarget "OseroUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +510,7 @@
 				D41C68DE1C7B45450017DBE5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
